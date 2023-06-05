@@ -1,0 +1,236 @@
+2023-06-01 13:36:35.701  INFO 6996 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 6996 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 13:36:35.708  INFO 6996 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 13:36:35.770  INFO 6996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 13:36:35.770  INFO 6996 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 13:36:36.713  WARN 6996 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 13:36:37.667  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7d6bac7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:37.720  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$c0226e1a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:37.798  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:37.818  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:37.833  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:37.872  INFO 6996 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:36:38.327  INFO 6996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 13:36:38.364  INFO 6996 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 13:36:38.365  INFO 6996 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 13:36:38.487  INFO 6996 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 13:36:38.488  INFO 6996 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2718 ms
+2023-06-01 13:36:38.681  INFO 6996 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 13:36:38.803 ERROR 6996 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2023-06-01 13:36:38.807  INFO 6996 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 13:36:40.022  INFO 6996 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 13:36:40.037  WARN 6996 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 13:36:40.132  INFO 6996 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 13:36:40.199  INFO 6996 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 13:36:40.202  INFO 6996 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 5.151 seconds (JVM running for 6.334)
+2023-06-01 13:36:40.205  INFO 6996 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 13:36:40.300  INFO 6996 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 13:36:40.305  INFO 6996 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 13:43:19.316  INFO 8738 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 8738 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 13:43:19.319  INFO 8738 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 13:43:19.388  INFO 8738 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 13:43:19.390  INFO 8738 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 13:43:20.263  WARN 8738 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 13:43:21.050  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2022c27c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.095  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$62d98419] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.155  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.179  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.197  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.232  INFO 8738 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 13:43:21.607  INFO 8738 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 13:43:21.636  INFO 8738 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 13:43:21.637  INFO 8738 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 13:43:21.753  INFO 8738 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 13:43:21.754  INFO 8738 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2363 ms
+2023-06-01 13:43:21.939  INFO 8738 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 13:43:22.063 ERROR 8738 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2023-06-01 13:43:22.065  INFO 8738 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 13:43:23.261  INFO 8738 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 13:43:23.280  WARN 8738 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 13:43:23.394  INFO 8738 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 13:43:23.463  INFO 8738 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 13:43:23.467  INFO 8738 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 4.726 seconds (JVM running for 5.713)
+2023-06-01 13:43:23.470  INFO 8738 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 13:43:23.560  INFO 8738 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 13:43:23.564  INFO 8738 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 14:32:41.428  INFO 12299 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 12299 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 14:32:41.433  INFO 12299 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 14:32:41.623  INFO 12299 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 14:32:41.625  INFO 12299 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 14:32:43.330  WARN 12299 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 14:32:44.434  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a10222e7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:44.505  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$e3b8e484] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:44.618  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:44.648  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:44.670  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:44.733  INFO 12299 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 14:32:45.260  INFO 12299 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 14:32:45.292  INFO 12299 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 14:32:45.293  INFO 12299 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 14:32:45.388  INFO 12299 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 14:32:45.388  INFO 12299 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3763 ms
+2023-06-01 14:32:45.575  INFO 12299 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 14:32:45.792 ERROR 12299 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : testWhileIdle is true, validationQuery not set
+2023-06-01 14:32:45.797  INFO 12299 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 14:32:47.401  INFO 12299 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 14:32:47.419  WARN 12299 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 14:32:47.543  INFO 12299 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 14:32:47.651  INFO 12299 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 14:32:47.662  INFO 12299 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 7.346 seconds (JVM running for 9.091)
+2023-06-01 14:32:47.666  INFO 12299 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 14:32:47.873  INFO 12299 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 14:32:47.882  INFO 12299 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 15:20:01.996  INFO 13980 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 13980 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 15:20:02.000  INFO 13980 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 15:20:02.084  INFO 13980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 15:20:02.085  INFO 13980 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 15:20:03.006  WARN 13980 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 15:20:03.685  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ada1d071] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:03.733  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$f058920e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:03.806  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:03.824  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:03.833  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:03.855  INFO 13980 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:20:04.160  INFO 13980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 15:20:04.190  INFO 13980 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 15:20:04.190  INFO 13980 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 15:20:04.266  INFO 13980 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 15:20:04.267  INFO 13980 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2181 ms
+2023-06-01 15:20:04.484  INFO 13980 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 15:20:04.713  INFO 13980 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 15:20:05.750  INFO 13980 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 15:20:05.770  WARN 13980 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 15:20:05.872  INFO 13980 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 15:20:05.938  INFO 13980 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 15:20:05.943  INFO 13980 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 4.717 seconds (JVM running for 5.676)
+2023-06-01 15:20:05.947  INFO 13980 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 15:20:06.041  INFO 13980 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 15:20:06.046  INFO 13980 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 15:34:49.696  INFO 21445 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 21445 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 15:34:49.701  INFO 21445 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 15:34:49.751  INFO 21445 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 15:34:49.752  INFO 21445 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 15:34:50.341  WARN 21445 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 15:34:50.910  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2d9058b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:50.945  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$70471a54] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:51.002  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:51.022  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:51.030  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:51.050  INFO 21445 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:34:51.346  INFO 21445 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 15:34:51.380  INFO 21445 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 15:34:51.380  INFO 21445 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 15:34:51.460  INFO 21445 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 15:34:51.460  INFO 21445 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1708 ms
+2023-06-01 15:34:51.613  INFO 21445 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 15:34:51.722  INFO 21445 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 15:34:52.555  INFO 21445 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 15:34:52.565  WARN 21445 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 15:34:52.631  INFO 21445 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 15:34:52.682  INFO 21445 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 15:34:52.685  INFO 21445 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 3.376 seconds (JVM running for 4.053)
+2023-06-01 15:34:52.688  INFO 21445 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 15:34:52.755  INFO 21445 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 15:34:52.760  INFO 21445 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 15:39:48.846  INFO 22398 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 22398 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 15:39:48.849  INFO 22398 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 15:39:48.898  INFO 22398 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 15:39:48.899  INFO 22398 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 15:39:49.425  WARN 22398 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 15:39:50.012  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dc59041a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.049  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$1f0fc5b7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.110  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.126  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.143  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.169  INFO 22398 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:39:50.427  INFO 22398 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 15:39:50.450  INFO 22398 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 15:39:50.451  INFO 22398 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 15:39:50.517  INFO 22398 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 15:39:50.518  INFO 22398 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1619 ms
+2023-06-01 15:39:50.647  INFO 22398 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 15:39:50.795  INFO 22398 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 15:39:51.619  INFO 22398 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 15:39:51.629  WARN 22398 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 15:39:51.703  INFO 22398 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 15:39:51.754  INFO 22398 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 15:39:51.759  INFO 22398 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 3.356 seconds (JVM running for 4.045)
+2023-06-01 15:39:51.762  INFO 22398 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 15:39:51.844  INFO 22398 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 15:39:51.848  INFO 22398 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 15:43:57.135  INFO 26511 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 26511 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 15:43:57.138  INFO 26511 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 15:43:57.180  INFO 26511 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 15:43:57.181  INFO 26511 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 15:43:57.786  WARN 26511 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 15:43:58.390  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1745409e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.427  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$59fc023b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.486  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.504  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.515  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.541  INFO 26511 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 15:43:58.808  INFO 26511 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 15:43:58.844  INFO 26511 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 15:43:58.845  INFO 26511 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 15:43:58.913  INFO 26511 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 15:43:58.913  INFO 26511 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1732 ms
+2023-06-01 15:43:59.039  INFO 26511 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 15:43:59.173  INFO 26511 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 15:44:00.022  INFO 26511 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 15:44:00.034  WARN 26511 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 15:44:00.103  INFO 26511 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 15:44:00.166  INFO 26511 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 15:44:00.169  INFO 26511 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 3.545 seconds (JVM running for 4.254)
+2023-06-01 15:44:00.172  INFO 26511 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 15:44:00.233  INFO 26511 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 15:44:00.237  INFO 26511 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 17:49:00.337  INFO 8163 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 8163 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 17:49:00.342  INFO 8163 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 17:49:00.415  INFO 8163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 17:49:00.416  INFO 8163 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 17:49:01.778  WARN 8163 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 17:49:03.113  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a7c0f95a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:03.196  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$ea77baf7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:03.361  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:03.431  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:03.470  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:03.559  INFO 8163 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:04.271  INFO 8163 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 17:49:04.322  INFO 8163 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:49:04.323  INFO 8163 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 17:49:04.474  INFO 8163 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:49:04.475  INFO 8163 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4058 ms
+2023-06-01 17:49:04.854  INFO 8163 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 17:49:05.070  INFO 8163 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 17:49:06.767  INFO 8163 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 17:49:06.796  WARN 8163 --- [restartedMain] org.thymeleaf.templatemode.TemplateMode  : [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2023-06-01 17:49:06.987  INFO 8163 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 17:49:07.131  INFO 8163 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 17:49:07.138  INFO 8163 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 7.578 seconds (JVM running for 8.91)
+2023-06-01 17:49:07.147  INFO 8163 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 17:49:07.290  INFO 8163 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 17:49:07.296  INFO 8163 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2023-06-01 17:49:48.846  INFO 9779 --- [restartedMain] com.xupt.house.HouseApplication          : Starting HouseApplication on Yuki with PID 9779 (/home/yuki/dev/design4/house/target/classes started by yuki in /home/yuki/dev/design4/house)
+2023-06-01 17:49:48.849  INFO 9779 --- [restartedMain] com.xupt.house.HouseApplication          : No active profile set, falling back to default profiles: default
+2023-06-01 17:49:48.899  INFO 9779 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-01 17:49:48.900  INFO 9779 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-01 17:49:49.583  WARN 9779 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.xupt.mapper*]' package. Please check your configuration.
+2023-06-01 17:49:50.179  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90fd6b85] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.226  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.xupt.house.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$d3b42d22] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.289  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.306  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'myRealm' of type [com.xupt.house.config.shiro.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.315  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.338  INFO 9779 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'getIgnoredUrlsProperties' of type [com.xupt.house.config.properties.IgnoredUrlsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-06-01 17:49:50.602  INFO 9779 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-01 17:49:50.628  INFO 9779 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-01 17:49:50.629  INFO 9779 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.22]
+2023-06-01 17:49:50.717  INFO 9779 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-01 17:49:50.717  INFO 9779 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1816 ms
+2023-06-01 17:49:50.883  INFO 9779 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2023-06-01 17:49:51.020  INFO 9779 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2023-06-01 17:49:51.895  INFO 9779 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2023-06-01 17:49:51.994  INFO 9779 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-01 17:49:52.051  INFO 9779 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-01 17:49:52.054  INFO 9779 --- [restartedMain] com.xupt.house.HouseApplication          : Started HouseApplication in 3.66 seconds (JVM running for 4.29)
+2023-06-01 17:49:52.056  INFO 9779 --- [restartedMain] com.xupt.house.HouseApplication          : SENS started at http://localhost:8080
+2023-06-01 17:49:52.122  INFO 9779 --- [Thread-8] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2023-06-01 17:49:52.126  INFO 9779 --- [Thread-8] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

@@ -1,0 +1,67 @@
+FFFFFFFFFFFFFFFFFFFFFFUUUUUUUU     UUUUUUUU       CCCCCCCCCCCCCKKKKKKKKK    KKKKKKK
+F::::::::::::::::::::FU::::::U     U::::::U    CCC::::::::::::CK:::::::K    K:::::K
+F::::::::::::::::::::FU::::::U     U::::::U  CC:::::::::::::::CK:::::::K    K:::::K
+FF::::::FFFFFFFFF::::FUU:::::U     U:::::UU C:::::CCCCCCCC::::CK:::::::K   K::::::K
+  F:::::F       FFFFFF U:::::U     U:::::U C:::::C       CCCCCCKK::::::K  K:::::KKK
+  F:::::F              U:::::D     D:::::UC:::::C                K:::::K K:::::K
+  F::::::FFFFFFFFFF    U:::::D     D:::::UC:::::C                K::::::K:::::K
+  F:::::::::::::::F    U:::::D     D:::::UC:::::C                K:::::::::::K
+  F:::::::::::::::F    U:::::D     D:::::UC:::::C                K:::::::::::K
+  F::::::FFFFFFFFFF    U:::::D     D:::::UC:::::C                K::::::K:::::K
+  F:::::F              U:::::D     D:::::UC:::::C                K:::::K K:::::K
+  F:::::F              U::::::U   U::::::U C:::::C       CCCCCCKK::::::K  K:::::KKK
+FF:::::::FF            U:::::::UUU:::::::U  C:::::CCCCCCCC::::CK:::::::K   K::::::K
+F::::::::FF             UU:::::::::::::UU    CC:::::::::::::::CK:::::::K    K:::::K
+F::::::::FF               UU:::::::::UU        CCC::::::::::::CK:::::::K    K:::::K
+FFFFFFFFFFF                 UUUUUUUUU             CCCCCCCCCCCCCKKKKKKKKK    KKKKKKK
+
+
+
+
+
+
+
+
+
+YYYYYYY       YYYYYYY     OOOOOOOOO     UUUUUUUU     UUUUUUUU
+Y:::::Y       Y:::::Y   OO:::::::::OO   U::::::U     U::::::U
+Y:::::Y       Y:::::Y OO:::::::::::::OO U::::::U     U::::::U
+Y::::::Y     Y::::::YO:::::::OOO:::::::OUU:::::U     U:::::UU
+YYY:::::Y   Y:::::YYYO::::::O   O::::::O U:::::U     U:::::U
+   Y:::::Y Y:::::Y   O:::::O     O:::::O U:::::D     D:::::U
+    Y:::::Y:::::Y    O:::::O     O:::::O U:::::D     D:::::U
+     Y:::::::::Y     O:::::O     O:::::O U:::::D     D:::::U
+      Y:::::::Y      O:::::O     O:::::O U:::::D     D:::::U
+       Y:::::Y       O:::::O     O:::::O U:::::D     D:::::U
+       Y:::::Y       O:::::O     O:::::O U:::::D     D:::::U
+       Y:::::Y       O::::::O   O::::::O U::::::U   U::::::U
+       Y:::::Y       O:::::::OOO:::::::O U:::::::UUU:::::::U
+    YYYY:::::YYYY     OO:::::::::::::OO   UU:::::::::::::UU
+    Y:::::::::::Y       OO:::::::::OO       UU:::::::::UU
+    YYYYYYYYYYYYY         OOOOOOOOO           UUUUUUUUU
+
+
+
+
+
+
+
+
+
+BBBBBBBBBBBBBBBBB   UUUUUUUU     UUUUUUUU       GGGGGGGGGGGGG
+B::::::::::::::::B  U::::::U     U::::::U    GGG::::::::::::G
+B::::::BBBBBB:::::B U::::::U     U::::::U  GG:::::::::::::::G
+BB:::::B     B:::::BUU:::::U     U:::::UU G:::::GGGGGGGG::::G
+  B::::B     B:::::B U:::::U     U:::::U G:::::G       GGGGGG
+  B::::B     B:::::B U:::::D     D:::::UG:::::G
+  B::::BBBBBB:::::B  U:::::D     D:::::UG:::::G
+  B:::::::::::::BB   U:::::D     D:::::UG:::::G    GGGGGGGGGG
+  B::::BBBBBB:::::B  U:::::D     D:::::UG:::::G    G::::::::G
+  B::::B     B:::::B U:::::D     D:::::UG:::::G    GGGGG::::G
+  B::::B     B:::::B U:::::D     D:::::UG:::::G        G::::G
+  B::::B     B:::::B U::::::U   U::::::U G:::::G       G::::G
+BB:::::BBBBBB::::::B U:::::::UUU:::::::U  G:::::GGGGGGGG::::G
+B:::::::::::::::::B   UU:::::::::::::UU    GG:::::::::::::::G
+B::::::::::::::::B      UU:::::::::UU        GGG::::::GGG:::G
+BBBBBBBBBBBBBBBBB         UUUUUUUUU             GGGGGG   GGGG
+
